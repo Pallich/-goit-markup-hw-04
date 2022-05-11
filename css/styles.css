@@ -119,6 +119,29 @@ p {
 
 /* header contacts */
 
+.email-icon,
+.mobile-icon {
+  fill: var(--header-contacts);
+  margin-right: 10px;
+}
+
+.email-icon:focus,
+.mobile-icon:focus,
+.email-icon:hover,
+.mobile-icon:hover {
+  fill: var(--active-color);
+}
+
+.email-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.mobile-icon {
+  width: 10px;
+  height: 16px;
+}
+
 .header-contacts {
   color: var(--header-contacts);
   font-size: 14px;
