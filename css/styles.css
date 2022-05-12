@@ -121,15 +121,7 @@ p {
 
 .email-icon,
 .mobile-icon {
-  fill: var(--header-contacts);
   margin-right: 10px;
-}
-
-.email-icon:focus,
-.mobile-icon:focus,
-.email-icon:hover,
-.mobile-icon:hover {
-  fill: var(--active-color);
 }
 
 .email-icon {
@@ -144,9 +136,13 @@ p {
 
 .header-contacts {
   color: var(--header-contacts);
+  fill: var(--header-contacts);
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+
+  display: flex;
+  align-items: center;
 }
 
 .header-contacts:hover,
@@ -154,8 +150,10 @@ p {
 .footer-adress:hover,
 .footer-adress:focus,
 .footer-contacts:hover,
-.footer-contacts:focus {
+.footer-contacts:focus,
+.email-icon:hover {
   color: var(--active-color);
+  fill: var(--active-color);
 }
 
 .page-header .contact {
