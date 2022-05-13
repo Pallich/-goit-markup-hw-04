@@ -406,7 +406,6 @@ p {
 .icon-twitter,
 .icon-facebook,
 .icon-linkedin {
-  /* fill: var(--team-icons-color); */
   height: 20px;
   width: 20px;
   margin-top: 12px;
@@ -417,15 +416,9 @@ p {
 .team-icons-items:focus {
   border-radius: 50%;
   cursor: pointer;
-  fill: tomato;
-}
-
-/* .icon-instagram:hover,
-.icon-twitter,
-.icon-facebook,
-.icon-linkedin {
   fill: var(--prymary-bg-color);
-} */
+  background-color: var(--active-color);
+}
 
 /* filter */
 .button {
