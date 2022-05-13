@@ -251,6 +251,26 @@ p {
   padding-bottom: 0;
 }
 
+.benefits-block {
+  display: inline-block;
+  height: 120px;
+  width: 270px;
+  background-color: var(--button-background);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.icon-antenna,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+  width: 70px;
+  height: 70px;
+}
+
 .benefits-list {
   display: flex;
 }
