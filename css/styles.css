@@ -420,6 +420,55 @@ p {
   background-color: var(--active-color);
 }
 
+/* clients */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-logo-box {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--team-icons-color);
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.client-logo-box:hover,
+.client-logo-box:focus {
+  border-color: var(--active-color);
+  fill: var(--active-color);
+}
+
+.clients-list-items {
+  fill: var(--team-icons-color);
+}
+
+.icon-company1,
+.icon-company2,
+.icon-company3,
+.icon-company4,
+.icon-company5,
+.icon-company6 {
+  width: 106px;
+  height: 60px;
+}
+
 /* filter */
 .button {
   font-size: 16px;
