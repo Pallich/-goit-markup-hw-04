@@ -170,6 +170,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-weight: 500;
+  align-items: center;
 }
 
 .list {
