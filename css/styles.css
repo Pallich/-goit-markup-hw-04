@@ -6,6 +6,7 @@
   --border-color: #eeeeee;
   --header-border-color: #ececec;
   --header-contacts: #757575;
+  --hero-background-color: rgba(47, 48, 58, 0.4);
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --button-background: #f5f4fa;
   --footer-background: #2f303a;
@@ -202,8 +203,17 @@ p {
 }
 
 .hero {
-  background-color: var(--footer-background);
+  max-width: 1600px;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  background-image: linear-gradient(
+      to right,
+      var(--hero-background-color),
+      var(--hero-background-color)
+    ),
+    url(../images/hero.jpg);
 }
 
 .hero-title {
