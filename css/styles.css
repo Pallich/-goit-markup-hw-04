@@ -410,6 +410,7 @@ p {
   display: flex;
   height: 44px;
   width: 44px;
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
 }
@@ -433,7 +434,6 @@ p {
 
 .team-icons-link:hover,
 .team-icons-link:focus {
-  border-radius: 50%;
   cursor: pointer;
   fill: var(--prymary-bg-color);
   background-color: var(--active-color);
